@@ -1,0 +1,313 @@
+/*  TYPOGRAPHY
+=============== */
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(../fonts/PTS55F-webfont.eof);
+    src: url('../fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/PTS55F-webfont.woff') format('woff'), url('../fonts/PTS55F-webfont.ttf') format('truetype'), url('../fonts/PTS55F-webfont.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*  BODY
+=========   */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    background: url(../img/bg-2.png) #fff;
+}
+
+p {
+    line-height: 1.7;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 150%;
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.btn-lg {
+    width: 300px;
+    font-size: 160%;
+    text-transform: capitalize;
+}
+
+.section-gutter {
+    padding: 70px 0 100px;
+}
+
+.container,
+.jumbotron .container {
+    max-width: 1000px;
+}
+
+.row-breather {
+    margin-bottom: 60px;
+}
+
+.glyphicon {
+    content: "";
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+}
+/*  JUMBOTRON
+================    */
+
+.jumbotron {
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+    margin-bottom: 0;
+    background: url(../img/jumbo-bg.png) #3A0256 10% 60% no-repeat;
+}
+
+.jumbotron .lead {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.jumbotron p {}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+.jumbotron .btn-lg {
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-top: 40px;
+}
+
+.jumbotron .btn-lg:hover {
+    background-color: #B9006E;
+    border-color: #B9006E;
+}
+/*  CORPORATE
+=================   */
+
+.corporate h3,
+.corporate h2 {
+    color: #B9006E;
+}
+
+.img-box {
+    max-width: 95%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../img/ft-img.png);
+    position: relative;
+}
+
+.img-box img {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+/*  WORK
+================    */
+
+.work {
+    color: #fff;
+    background: url(../img/bg-1.png) #B9006E;
+}
+
+.work h2 {
+    color: #fff;
+}
+
+.work .col-sm-5 img {
+    border-radius: 10px 70px 10px 70px;
+    border: 5px solid #EA2394;
+}
+
+.work-lsts ul,
+.clients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-lsts li {
+    display: block;
+    padding: 0px 0 10px 50px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background: url(../img/check.png) no-repeat 0% 25%;
+}
+/*  PORTFOLIO
+=============== */
+
+.portfolio {
+    background: #3A0256;
+    color: #fff;
+}
+
+.portfolio .lead {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.portfolio-imgs {
+    margin-top: 40px;
+    box-shadow: 0px 5px 20px -10px;
+    border: 1px solid #E6E6E6;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.portfolio .col-sm-4 {
+    text-align: center;
+}
+
+.desc-2 {
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+/*  CONTACT
+=============   */
+
+.contact {
+    background: #fff;
+}
+
+.contact h3,
+.contact h2 {
+    color: #B9006E;
+}
+
+.col-sm-6 p span,
+.mobile p span {
+    color: #B9006E;
+    text-decoration: underline;
+}
+/*  MEDIA QUERIES
+====================  */
+
+@media (max-width: 991px) {
+    .jumbotron {
+        padding: 100px 0;
+        background-position: 40% 60%;
+    }
+    .img-box img {
+        left: 36%;
+    }
+    .work .col-sm-7 {
+        font-size: 20px;
+    }
+    .work .col-sm-5 img {
+        margin-top: 30px;
+    }
+    .work-lsts li {
+        padding-top: 5px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 160%;
+    }
+    h3 {
+        font-size: 140%;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .section-gutter {
+        padding: 50px 0 30px;
+    }
+    .row-breather {
+        margin-bottom: 40px;
+    }
+    /* jumbotron */
+    
+    .jumbotron {
+        padding: 70px 0;
+        margin-bottom: 0;
+        background-position: 10% 0%;
+    }
+    .jumbotron .lead {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.4;
+    }
+    .jumbotron p {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .jumbotron h1 {
+        font-size: 40px;
+        letter-spacing: 0;
+        margin: 5px 0;
+    }
+    .jumbotron .btn-lg {
+        margin-top: 20px;
+    }
+    .btn-lg {
+        width: 250px;
+        font-size: 140%;
+    }
+    /*    corporate */
+    
+    .ft-box {
+        text-align: center;
+    }
+    /*    work  */
+    
+    .work h2 {
+        margin-bottom: 5px;
+    }
+    .work .col-sm-7 {
+        text-align: center;
+    }
+    /*    portfolio */
+    
+    .portfolio h2 {
+        line-height: 1.4;
+    }
+    .portfolio .lead {
+        line-height: 1.2;
+        font-size: 20px;
+    }
+    .portfolio .col-sm-4 {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .portfolio .col-sm-4 .center {
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    /*    contact  */
+    
+    .contact h2 {
+        line-height: 1.4;
+    }
+    .col-sm-6 {
+        text-align: center;
+    }
+}
