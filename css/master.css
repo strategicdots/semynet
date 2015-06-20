@@ -77,7 +77,8 @@ h3 {
     padding: 150px 0;
     color: #fff;
     margin-bottom: 0;
-    background: url(../img/jumbo-bg.png) #3A0256 10% 60% no-repeat;
+    background: url(../img/jumbo-bg.png) #3A0256 no-repeat;
+    background-size: cover;
 }
 
 .jumbotron .lead {
@@ -248,7 +249,6 @@ h3 {
     .jumbotron {
         padding: 70px 0;
         margin-bottom: 0;
-        background-position: 10% 0%;
     }
     .jumbotron .lead {
         font-size: 22px;
@@ -260,8 +260,8 @@ h3 {
         line-height: 1.7;
     }
     .jumbotron h1 {
-        font-size: 40px;
-        letter-spacing: 0;
+        font-size: 48px;
+        letter-spacing: 2px;
         margin: 5px 0;
     }
     .jumbotron .btn-lg {
